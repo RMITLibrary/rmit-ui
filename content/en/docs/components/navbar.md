@@ -15,8 +15,9 @@ toc: true
 
 <h2>Top Navbar</h2>
 <p>Example</p>
-<img src='{{ absURL }}' class="img-fluid">
-{{< email user="hello" domain="{{ absURL }}" >}}
+
+
+{{< figure src="../../../images/top-navbar.png" class="img-fluid" >}}
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -56,7 +57,7 @@ toc: true
 
 <h2>Secondary Nav (tabs)</h2>
 <p>Example</p>
-
+{{< figure src="../../../images/tab-navs.png" class="img-fluid" >}}
 <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>
