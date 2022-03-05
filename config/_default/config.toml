@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://RMITLibrary.github.io/rmit-ui"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
