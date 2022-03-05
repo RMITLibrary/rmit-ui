@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://RMITLibrary.github.io/sitemap.xml
