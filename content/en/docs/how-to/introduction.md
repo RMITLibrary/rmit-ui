@@ -25,9 +25,7 @@ Step-by-step instructions on how to start a new Doks project. [Tutorial →](htt
 
 ### Quick Start
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
 
 ## Go further
 
