@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BP5 on </title>
-    <link>https://RMITLibrary.github.io/docs/</link>
+    <link>https://RMITLibrary.github.io/rmit-ui/docs/</link>
     <description>Recent content in BP5 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="https://RMITLibrary.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="https://RMITLibrary.github.io/rmit-ui/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

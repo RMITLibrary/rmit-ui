@@ -2,21 +2,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://RMITLibrary.github.io/docs/how-to/introduction/</loc>
+      <loc>https://RMITLibrary.github.io/rmit-ui/docs/how-to/introduction/</loc>
       <lastmod>2020-10-06T08:48:57+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://RMITLibrary.github.io/docs/how-to/quick-start/</loc>
+      <loc>https://RMITLibrary.github.io/rmit-ui/docs/how-to/quick-start/</loc>
       <lastmod>2020-11-16T13:59:39+01:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://RMITLibrary.github.io/docs/how-to/commands/</loc>
+      <loc>https://RMITLibrary.github.io/rmit-ui/docs/how-to/commands/</loc>
       <lastmod>2020-10-13T15:21:01+02:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
