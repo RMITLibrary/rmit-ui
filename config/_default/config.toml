@@ -1,4 +1,4 @@
-baseurl = "https://RMITLibrary.github.io/rmit-ui"
+baseurl = "https://RMITLibrary.github.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
