@@ -1,5 +1,5 @@
 [build]
-  publish = "docs"
+  publish = "public"
   functions = "functions"
 
 [build.environment]

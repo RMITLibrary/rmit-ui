@@ -15,6 +15,8 @@ toc: true
 
 <h2>Top Navbar</h2>
 <p>Example</p>
+<img src='{{ absURL }}' class="img-fluid">
+{{< email user="hello" domain="{{ absURL }}" >}}
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>

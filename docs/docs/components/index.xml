@@ -14,7 +14,7 @@
       
       <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/navbar/</guid>
       <description>Top Navbar Example
-Navbar   Home  Link  Dropdown  Action Another action  Something else here   Disabled   Search     Secondary Nav (tabs) Example
+user=&#34;hello&#34;,domain=&#34;{{ absURL }}&#34;,document.write(user+&#34;@&#34;+domain);hello at {{ absURL }} Navbar   Home  Link  Dropdown  Action Another action  Something else here   Disabled   Search     Secondary Nav (tabs) Example
 Active  Link  Link  Disabled  </description>
     </item>
     

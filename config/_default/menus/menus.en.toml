@@ -2,13 +2,13 @@
   name = "How to use"
   weight = 10
   identifier = "how-to"
-  url = "/bp5/how-to/"
+  url = "/docs/how-to/"
 
 [[docs]]
   name = "How to"
   weight = 60
   identifier = "how-to"
-  url = "/bp5/how-to/"
+  url = "/docs/how-to/"
 
 
 
