@@ -1,14 +1,19 @@
-### 1. clone this repot
+### This repository resolves live here
 
-See above
+[https://rmitlibrary.github.io/rmit-ui/](https://rmitlibrary.github.io/rmit-ui/)
 
-### 2. Install dependencies
+
+### Development
+
+Clone repo
+
+## 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Start development server
+## 3. Start development server
 
 ```bash
 npm run start
