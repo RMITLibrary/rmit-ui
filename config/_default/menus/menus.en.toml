@@ -2,13 +2,13 @@
   name = "How to use"
   weight = 10
   identifier = "how-to"
-  url = "/docs/how-to/"
-  
+  url = "/bp5/how-to/"
+
 [[docs]]
-  name = "Prologue"
+  name = "How to"
   weight = 60
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "how-to"
+  url = "/bp5/how-to/"
 
 
 
@@ -32,7 +32,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/how-to/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
