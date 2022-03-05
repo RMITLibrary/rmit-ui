@@ -1,14 +1,14 @@
 ---
-title: "How to Update"
-description: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
-lead: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
+title: "Navbar"
+description: "Info on the Navbar and use"
+lead: "Info on the Navbar and use"
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 images: []
 menu:
   docs:
-    parent: "help"
+    parent: "components"
 weight: 610
 toc: true
 ---
