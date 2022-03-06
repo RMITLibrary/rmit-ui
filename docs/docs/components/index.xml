@@ -8,47 +8,13 @@
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://RMITLibrary.github.io/rmit-ui/docs/components/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Navbar</title>
-      <link>https://RMITLibrary.github.io/rmit-ui/docs/components/navbar/</link>
-      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
-      
-      <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/navbar/</guid>
-      <description>Top Navbar Example
- Navbar   Home  Link  Dropdown  Action Another action  Something else here   Disabled   Search     Secondary Nav (tabs) Example
- Active  Link  Link  Disabled  </description>
-    </item>
-    
-    <item>
-      <title>Pills</title>
-      <link>https://RMITLibrary.github.io/rmit-ui/docs/components/pills/</link>
-      <pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate>
-      
-      <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/pills/</guid>
-      <description>Problems updating npm packages # Delete the ./node_modules folder, and run again:
-npm install  Problems with cache # Delete the temporary directories:
-npm run clean  </description>
-    </item>
-    
-    <item>
-      <title>Tabs</title>
-      <link>https://RMITLibrary.github.io/rmit-ui/docs/components/tabs/</link>
-      <pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate>
-      
-      <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/tabs/</guid>
-      <description>Problems updating npm packages # Delete the ./node_modules folder, and run again:
-npm install  Problems with cache # Delete the temporary directories:
-npm run clean  </description>
-    </item>
-    
-    <item>
-      <title>Buttons</title>
-      <link>https://RMITLibrary.github.io/rmit-ui/docs/components/buttons/</link>
+      <title>Typography</title>
+      <link>https://RMITLibrary.github.io/rmit-ui/docs/components/typography/</link>
       <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
       
-      <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/buttons/</guid>
-      <description>Examples Primary Secondary Success Danger Warning Info Light Dark Link
-&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary&amp;quot;&amp;gt;Primary&amp;lt;/button&amp;gt;
-&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-secondary&amp;quot;&amp;gt;Secondary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-success&amp;quot;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-danger&amp;quot;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;Warning&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-info&amp;quot;&amp;gt;Info&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-light&amp;quot;&amp;gt;Light&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-dark&amp;quot;&amp;gt;Dark&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-link&amp;quot;&amp;gt;Link&amp;lt;/button&amp;gt;  asdas</description>
+      <guid>https://RMITLibrary.github.io/rmit-ui/docs/components/typography/</guid>
+      <description>Headings # Sans Serif
+ Heading 1 &amp;lt;h1&amp;gt;Heading 1&amp;lt;/h1&amp;gt; Heading 2 &amp;lt;h2&amp;gt;Heading 2&amp;lt;/h2&amp;gt; Heading 3 &amp;lt;h3&amp;gt;Heading 3&amp;lt;/h3&amp;gt; Heading 4 &amp;lt;h4&amp;gt;Heading 4&amp;lt;/h4&amp;gt; Heading 5 &amp;lt;h5&amp;gt;Heading 5&amp;lt;/h5&amp;gt; Headings with line # Headings with line   Heading 1 &amp;lt;h1 class=&amp;quot;line&amp;quot;&amp;gt;Heading 1&amp;lt;/h1&amp;gt; Heading 2 &amp;lt;h2 class=&amp;quot;line&amp;quot;&amp;gt;Heading 2&amp;lt;/h2&amp;gt; Heading 3 &amp;lt;h3 class=&amp;quot;line&amp;quot;&amp;gt;Heading 3&amp;lt;/h3&amp;gt; Heading 4 &amp;lt;h4 class=&amp;quot;line&amp;quot;&amp;gt;Heading 4&amp;lt;/h4&amp;gt; Heading 5 &amp;lt;h5 class=&amp;quot;line&amp;quot;&amp;gt;Heading 5 class=&amp;quot;museo&amp;quot; &amp;lt;/h5&amp;gt; Typeface # Serif / Museo  Heading 1 &amp;lt;h1 class=&amp;quot;museo&amp;quot;&amp;gt;Heading 1&amp;lt;/h1&amp;gt; Heading 2 &amp;lt;h2 class=&amp;quot;museo&amp;quot;&amp;gt;Heading 2&amp;lt;/h2&amp;gt; Heading 3 &amp;lt;h3 class=&amp;quot;museo&amp;quot;&amp;gt;Heading 3&amp;lt;/h3&amp;gt; Heading 4 &amp;lt;h4 class=&amp;quot;museo&amp;quot;&amp;gt;Heading 4&amp;lt;/h4&amp;gt; Heading 5 &amp;lt;h5 class=&amp;quot;museo&amp;quot;&amp;gt;Heading 5&amp;lt;/h5&amp;gt; Display # Headings Red Band / Text Boxes   Display 1 &amp;lt;h1 class=&amp;quot;display-1&amp;quot;&amp;gt;Display 1&amp;lt;/h1&amp;gt; Display 2 &amp;lt;h2 class=&amp;quot;display-2&amp;quot;&amp;gt;Display 2&amp;lt;/h1&amp;gt; Display 3 &amp;lt;h2 class=&amp;quot;display-3&amp;quot;&amp;gt;Display 3&amp;lt;/h1&amp;gt; Display 4 &amp;lt;h2 class=&amp;quot;display-4&amp;quot;&amp;gt;Display 4&amp;lt;/h1&amp;gt; Display 5 &amp;lt;h4 class=&amp;quot;display-5&amp;quot;&amp;gt;Display 5&amp;lt;/h1&amp;gt; Display 6 &amp;lt;h5 class=&amp;quot;display-6&amp;quot;&amp;gt;Display 6&amp;lt;/h1&amp;gt; Paragraphs # All text content</description>
     </item>
     
   </channel>

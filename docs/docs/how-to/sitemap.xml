@@ -7,18 +7,4 @@
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
-    
-    <url>
-      <loc>https://RMITLibrary.github.io/rmit-ui/docs/how-to/quick-start/</loc>
-      <lastmod>2020-11-16T13:59:39+01:00</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
-      <loc>https://RMITLibrary.github.io/rmit-ui/docs/how-to/commands/</loc>
-      <lastmod>2020-10-13T15:21:01+02:00</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-    </url>
     </urlset>

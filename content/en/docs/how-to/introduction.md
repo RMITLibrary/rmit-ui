@@ -15,7 +15,9 @@ toc: true
 
 ## Get started
 
-This resource aims to provide accessible brand correct HTML components for RMIT web components. It uses as many native Bootstrap 5 as possible, with modifications
+This resource aims to provide accessible brand correct HTML components for RMIT web components. It uses as many native Bootstrap 5 as possible, with modifications.
+
+Guidance is from [here](https://www.rmit.edu.au/staff/service-connect/facilities-technology/digital-services-brand/brand). 
 
 An incomplete resource, this is a work in progress.
 
@@ -23,7 +25,7 @@ The base style can be copied from this page as the most up to date version
 
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/rmit-ui/mainXXXXX.css&quot;&gt;
 
-The File will have a commit string in place of the XXXXX's
+The file will have a commit string in place of the XXXXX's
 
 
 
