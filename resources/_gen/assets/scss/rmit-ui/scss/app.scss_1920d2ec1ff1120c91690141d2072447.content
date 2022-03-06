@@ -10955,26 +10955,72 @@ blockquote {
   font-weight: normal; }
 
 /* This file overrides vanilla bootstrap in typography */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+/* inline links */
+p > a {
+  text-decoration: underline; }
+
+/* "more" links */
+a.more::before {
+  content: '\A';
+  white-space: pre; }
+
+a.more {
+  text-decoration: none; }
+
+a.more:hover {
+  text-decoration: underline; }
+
+a.more::after {
+  content: "\003e";
+  color: #E61E2A;
+  margin-left: 1rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   color: #000054; }
 
-.serif, .museo {
+.serif,
+.museo {
   font-family: "Museo500", Museo500, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* museo */ }
 
 /* force helvetica in paragraph text */
-p.serif, p.museo {
+p.serif,
+p.museo {
   font-family: "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* helvetica */ }
 
-.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
   font-weight: 800;
   background: #E61E2A;
   color: #000054;
   padding-left: 0.5rem; }
 
 /* Calculates the line height for each heading, needs to be adjusted for each heading when changed - supposed to be 10% of the capital height*/
-h1.line, .line.h1, h2.line, .line.h2, h3.line, .line.h3, h4.line, .line.h4, h5.line, .line.h5 {
+h1.line, .line.h1,
+h2.line,
+.line.h2,
+h3.line,
+.line.h3,
+h4.line,
+.line.h4,
+h5.line,
+.line.h5 {
   border-top: 1rem solid #E61E2A; }
 
 h1.line, .line.h1 {

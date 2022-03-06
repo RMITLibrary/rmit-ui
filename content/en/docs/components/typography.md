@@ -1,6 +1,6 @@
 ---
 title: "Typography"
-description: "Type, Figures and glyphs"
+description: "Type, figures and glyphs"
 lead: "Type, Figures and glyphs"
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
@@ -15,11 +15,33 @@ toc: true
 
 
 
-## Typeface
+# Typeface
 {{< figure src="../../../images/type-hierachy.png" class="img-fluid" >}}
 <h2>Serif / Museo. </h2>
 <p>Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.</p>
 <hr>
+
+
+## Links 
+
+Inline links, use sparingly. Where possible add a call to action after text to provide better context.
+
+Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes in art, science, and technology, in response to the industrial revolution in Australia. To learn more about RMIT visit its <a href="https://rmit.edu.au" title="Links to the RMIT website">website</a>.
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;a href=&quot;https://rmit.edu.au&quot; title=&quot;Links to the RMIT website&quot;&gt;website&lt;/a&gt;</span></code></pre></div>
+
+<h4>Better</h4>
+Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes in art, science, and technology, in response to the industrial revolution in Australia. To learn more about RMIT visit its website.
+<br>
+<a class="more" href="https://rmit.edu.au" title="Links to the RMIT website">Find out more</a>
+
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;a class=&quot;more&quot; href=&quot;https://rmit.edu.au&quot; title=&quot;Links to the RMIT website&quot;&gt;Find out more&lt;/a&gt;
+</span></code></pre></div>
+
+
+
+## Headings
+
+<p>Sans Serif option (Museo)</p>
 <h1 class="museo">Heading 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;museo&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
 
@@ -32,8 +54,6 @@ toc: true
 <h5 class="museo">Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
 
-
-## Headings
 <p>Sans Serif option</p>
 <hr>
 <h1>Heading 1</h1>
@@ -49,10 +69,10 @@ toc: true
 
 <h5>Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
+<hr> 
 
-### Headings with line
+### Headings with a line
 
-<h2>Headings <small class="text-muted">with line</small></h2>
 {{< figure src="../../../images/the-line.png" class="img-fluid" >}}
 <hr>
 <h1 class="line">Heading 1</h1>
@@ -70,10 +90,11 @@ toc: true
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;line&quot;&gt;Heading 5 class=&quot;museo&quot; &lt;/h5&gt;</span></code></pre></div>
 
 
+<hr>
 
-## Display Headings
-<h2 class="museo">Headings <small class="text-muted">Red Band / Text Boxes</small></h2>
+### Display Headings - Red band / Text Boxes
 {{< figure src="../../../images/text-boxes.png" class="img-fluid" >}}
+<p>Note this format has <a href="https://webaim.org/resources/contrastchecker/?fcolor=E61E2A&bcolor=000054">accessibility issues</a>, So use sparingly, in large text or avoid completely.</p>
 <hr>
 <h1 class="display-1">Display 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;display-1&quot;&gt;Display 1&lt;/h1&gt;</span></code></pre></div>

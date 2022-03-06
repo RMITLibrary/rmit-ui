@@ -15,7 +15,6 @@ toc: true
 
 <h2>Light</h2>
 
-
 {{< figure src="../../../images/footer-light.png" class="img-fluid" >}}
 
 <h2>Dark</h2>
