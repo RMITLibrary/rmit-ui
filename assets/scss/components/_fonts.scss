@@ -1,0 +1,46 @@
+/* This file overrides vanilla bootstrap in typography */
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+{
+    color: $blue;
+}
+
+
+
+.serif, .museo
+{
+    font-family: "Museo";
+}
+
+.display-1,.display-2,.display-3,.display-4,.display-5,.display-6
+{
+    font-weight:800;
+    background: $red;
+    color: $blue;
+    padding-left: 0.5rem;
+}
+/* Calculates the line height for each heading, needs to be adjusted for each heading when changed - supposed to be 10% of the capital height*/
+$lineheight: 1rem;
+h1.line,h2.line,h3.line,h4.line,h5.line
+{
+    border-top: $lineheight  solid $red;
+}
+h1.line
+{
+    border-top: $lineheight*0.5  solid $red;
+}
+h2.line
+{
+    border-top: $lineheight*0.4  solid $red;
+}
+h3.line
+{
+    border-top: $lineheight*0.3  solid $red;
+}
+h4.line
+{
+    border-top: $lineheight*0.25  solid $red;
+}
+h5.line
+{
+    border-top: $lineheight*0.2  solid $red;
+}

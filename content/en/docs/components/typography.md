@@ -13,7 +13,7 @@ weight: 630
 toc: true
 ---
 
-<h2>Headings</h2>
+## Headings
 <p>Sans Serif</p>
 <hr>
 <h1>Heading 1</h1>
@@ -30,6 +30,27 @@ toc: true
 <h5>Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
 
+### Headings with line
+
+<h2>Headings <small class="text-muted">with line</small></h2>
+{{< figure src="../../../images/the-line.png" class="img-fluid" >}}
+<hr>
+<h1 class="line">Heading 1</h1>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;line&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
+<h2 class="line">Heading 2</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h2 class=&quot;line&quot;&gt;Heading 2&lt;/h2&gt;</span></code></pre></div>
+
+<h3 class="line">Heading 3</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h3 class=&quot;line&quot;&gt;Heading 3&lt;/h3&gt;</span></code></pre></div>
+
+<h4 class="line">Heading 4</h4>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;line&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
+
+<h5 class="line">Heading 5</h5>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;line&quot;&gt;Heading 5 class=&quot;museo&quot; &lt;/h5&gt;</span></code></pre></div>
+
+## Typeface
+
 <h2>Serif / Museo</h2>
 <hr>
 <h1 class="museo">Heading 1</h1>
@@ -43,7 +64,10 @@ toc: true
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;museo&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
 <h5 class="museo">Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
-<h2 class="museo">Display Headings <small class="text-muted">Red Band</small></h2>
+
+## Display
+<h2 class="museo">Headings <small class="text-muted">Red Band / Text Boxes</small></h2>
+{{< figure src="../../../images/text-boxes.png" class="img-fluid" >}}
 <hr>
 <h1 class="display-1">Display 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;display-1&quot;&gt;Display 1&lt;/h1&gt;</span></code></pre></div>
@@ -59,8 +83,8 @@ toc: true
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;display-6&quot;&gt;Display 6&lt;/h1&gt;</span></code></pre></div>
 
 
+## Paragraphs
 
-<h2>Paragraphs</h2>
 <p>All text content</p>
 <h3>Lead text</h3>
 <p class="lead">

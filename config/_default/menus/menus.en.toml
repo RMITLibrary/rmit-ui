@@ -4,11 +4,6 @@
   identifier = "how-to"
   url = "/docs/how-to/"
 
-[[docs]]
-  name = "How to"
-  weight = 60
-  identifier = "how-to"
-  url = "/docs/how-to/"
 
 
 
@@ -31,8 +26,8 @@
 #  url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/how-to/introduction/"
+  name = "BP5"
+  url = "./docs/how-to/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
