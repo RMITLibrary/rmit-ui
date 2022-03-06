@@ -13,8 +13,28 @@ weight: 630
 toc: true
 ---
 
+
+
+## Typeface
+{{< figure src="../../../images/type-hierachy.png" class="img-fluid" >}}
+<h2>Serif / Museo. </h2>
+<p>Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.</p>
+<hr>
+<h1 class="museo">Heading 1</h1>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;museo&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
+
+<h2 class="museo">Heading 2</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h2 class=&quot;museo&quot;&gt;Heading 2&lt;/h2&gt;</span></code></pre></div>
+<h3 class="museo">Heading 3</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h3 class=&quot;museo&quot;&gt;Heading 3&lt;/h3&gt;</span></code></pre></div>
+<h4 class="museo">Heading 4</h4>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;museo&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
+<h5 class="museo">Heading 5</h5>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
+
+
 ## Headings
-<p>Sans Serif</p>
+<p>Sans Serif option</p>
 <hr>
 <h1>Heading 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
@@ -49,23 +69,9 @@ toc: true
 <h5 class="line">Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;line&quot;&gt;Heading 5 class=&quot;museo&quot; &lt;/h5&gt;</span></code></pre></div>
 
-## Typeface
 
-<h2>Serif / Museo</h2>
-<hr>
-<h1 class="museo">Heading 1</h1>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;museo&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
 
-<h2 class="museo">Heading 2</h2>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h2 class=&quot;museo&quot;&gt;Heading 2&lt;/h2&gt;</span></code></pre></div>
-<h3 class="museo">Heading 3</h3>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h3 class=&quot;museo&quot;&gt;Heading 3&lt;/h3&gt;</span></code></pre></div>
-<h4 class="museo">Heading 4</h4>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;museo&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
-<h5 class="museo">Heading 5</h5>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
-
-## Display
+## Display Headings
 <h2 class="museo">Headings <small class="text-muted">Red Band / Text Boxes</small></h2>
 {{< figure src="../../../images/text-boxes.png" class="img-fluid" >}}
 <hr>

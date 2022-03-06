@@ -13,11 +13,9 @@
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
       <guid>https://RMITLibrary.github.io/rmit-ui/docs/how-to/introduction/</guid>
-      <description>Get started # This resource aims to provide accessible brand correct HTML components for RMIT web components. It uses as many native Bootstrap 5 as possible, with modifications
+      <description>Getting started # Guidance is from here.
 An incomplete resource, this is a work in progress.
-The base style can be copied from this page as the most up to date version
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/rmit-ui/mainXXXXX.css&amp;quot;&amp;gt;
-The File will have a commit string in place of the XXXXX&amp;rsquo;s</description>
+The base style can be copied from this page as the most up to date version ready to publish.</description>
     </item>
     
   </channel>

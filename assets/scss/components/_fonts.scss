@@ -4,11 +4,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
     color: $blue;
 }
 
-
-
 .serif, .museo
 {
-    font-family: "Museo";
+    font-family: $font-family-serif; /* museo */
+}
+/* force helvetica in paragraph text */
+p.serif, p.museo
+{
+    font-family: $font-family-sans-serif; /* helvetica */
 }
 
 .display-1,.display-2,.display-3,.display-4,.display-5,.display-6

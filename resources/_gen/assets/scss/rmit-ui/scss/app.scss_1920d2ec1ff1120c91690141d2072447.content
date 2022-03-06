@@ -10959,7 +10959,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000054; }
 
 .serif, .museo {
-  font-family: "Museo"; }
+  font-family: "Museo500", Museo500, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* museo */ }
+
+/* force helvetica in paragraph text */
+p.serif, p.museo {
+  font-family: "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* helvetica */ }
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
   font-weight: 800;

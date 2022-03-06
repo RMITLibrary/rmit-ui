@@ -10,7 +10,7 @@
 
   <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
 
-  <link rel="stylesheet" href="https://RMITLibrary.github.io/rmit-ui/main.c37d60e0839221f065666bae44ecdc9497f1368f3331e7ce77b403ee390d24996c22f749f0859b7b6ba7b86d9be80b32265d92cef2e9be953a869c7a33553abe.css" integrity="sha512-w31g4IOSIfBlZmuuROzclJfxNo8zMefOd7QD7jkNJJlsIvdJ8IWbe2unuG2b6AsyJl2SzvLpvpU6hpx6M1U6vg==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://RMITLibrary.github.io/rmit-ui/main.eeca123e36360728de9252004c30a59fcb7e273ac2cec3baa430a7b55d21faea9c32c3242e94f21743401203771166af53ce008809082fdcc5735ca9d0b583f8.css" integrity="sha512-7soSPjY2ByjeklIATDCln8t&#43;JzrCzsO6pDCntV0h&#43;uqcMsMkLpTyF0NAEgN3EWavU84AiAkIL9zFc1yp0LWD&#43;A==" crossorigin="anonymous">
 <noscript><style>img.lazyload { display: none; }</style></noscript>
   <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -364,13 +364,13 @@
     <h3>On this page</h3>
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#typeface">Typeface</a></li>
     <li><a href="#headings">Headings</a>
       <ul>
         <li><a href="#headings-with-line">Headings with line</a></li>
       </ul>
     </li>
-    <li><a href="#typeface">Typeface</a></li>
-    <li><a href="#display">Display</a></li>
+    <li><a href="#display-headings">Display Headings</a></li>
     <li><a href="#paragraphs">Paragraphs</a></li>
   </ul>
 </nav>
@@ -386,21 +386,38 @@
     <h3>On this page</h3>
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#typeface">Typeface</a></li>
     <li><a href="#headings">Headings</a>
       <ul>
         <li><a href="#headings-with-line">Headings with line</a></li>
       </ul>
     </li>
-    <li><a href="#typeface">Typeface</a></li>
-    <li><a href="#display">Display</a></li>
+    <li><a href="#display-headings">Display Headings</a></li>
     <li><a href="#paragraphs">Paragraphs</a></li>
   </ul>
 </nav>
   </div>
 
 			</nav>
-			<h2 id="headings">Headings <a href="#headings" class="anchor" aria-hidden="true">#</a></h2>
-<p>Sans Serif</p>
+			<h2 id="typeface">Typeface <a href="#typeface" class="anchor" aria-hidden="true">#</a></h2>
+<figure class="img-fluid"><img src="../../../images/type-hierachy.png"/>
+</figure>
+
+<h2>Serif / Museo. </h2>
+<p>Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.</p>
+<hr>
+<h1 class="museo">Heading 1</h1>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;museo&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
+<h2 class="museo">Heading 2</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h2 class=&quot;museo&quot;&gt;Heading 2&lt;/h2&gt;</span></code></pre></div>
+<h3 class="museo">Heading 3</h3>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h3 class=&quot;museo&quot;&gt;Heading 3&lt;/h3&gt;</span></code></pre></div>
+<h4 class="museo">Heading 4</h4>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;museo&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
+<h5 class="museo">Heading 5</h5>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
+<h2 id="headings">Headings <a href="#headings" class="anchor" aria-hidden="true">#</a></h2>
+<p>Sans Serif option</p>
 <hr>
 <h1>Heading 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
@@ -428,20 +445,7 @@
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;line&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
 <h5 class="line">Heading 5</h5>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;line&quot;&gt;Heading 5 class=&quot;museo&quot; &lt;/h5&gt;</span></code></pre></div>
-<h2 id="typeface">Typeface <a href="#typeface" class="anchor" aria-hidden="true">#</a></h2>
-<h2>Serif / Museo</h2>
-<hr>
-<h1 class="museo">Heading 1</h1>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;museo&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
-<h2 class="museo">Heading 2</h2>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h2 class=&quot;museo&quot;&gt;Heading 2&lt;/h2&gt;</span></code></pre></div>
-<h3 class="museo">Heading 3</h3>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h3 class=&quot;museo&quot;&gt;Heading 3&lt;/h3&gt;</span></code></pre></div>
-<h4 class="museo">Heading 4</h4>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h4 class=&quot;museo&quot;&gt;Heading 4&lt;/h4&gt;</span></code></pre></div>
-<h5 class="museo">Heading 5</h5>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h5 class=&quot;museo&quot;&gt;Heading 5&lt;/h5&gt;</span></code></pre></div>
-<h2 id="display">Display <a href="#display" class="anchor" aria-hidden="true">#</a></h2>
+<h2 id="display-headings">Display Headings <a href="#display-headings" class="anchor" aria-hidden="true">#</a></h2>
 <h2 class="museo">Headings <small class="text-muted">Red Band / Text Boxes</small></h2>
 <figure class="img-fluid"><img src="../../../images/text-boxes.png"/>
 </figure>
@@ -514,7 +518,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis magna cur
     <script src="/rmit-ui/js/bootstrap.min.f93d87ed312fd94eae9a720e5988a3bd322bcdd099518866fc5668e18610cca0077fc356b3edfc727dedf5f773dab0a6d87a870e4b616595e76381163dd5a730.js" integrity="sha512-&#43;T2H7TEv2U6umnIOWYijvTIrzdCZUYhm/FZo4YYQzKAHf8NWs&#43;38cn3t9fdz2rCm2HqHDkthZZXnY4EWPdWnMA==" crossorigin="anonymous" defer></script>
   <script src="/rmit-ui/js/highlight.min.29160ed197d30b5f4c8942820b9520627ffb7c856ff45d5eaa0d7d1c021434364b5c1c2bc4322bdbc05488062020972fad4ad5f66a818151f9d9a610eeaf83d9.js" integrity="sha512-KRYO0ZfTC19MiUKCC5UgYn/7fIVv9F1eqg19HAIUNDZLXBwrxDIr28BUiAYgIJcvrUrV9mqBgVH52aYQ7q&#43;D2Q==" crossorigin="anonymous" defer></script>
   <script src="/rmit-ui/main.min.f21e723af2869075669202cfe2f139c6a209c1761195fc2c98dd2fa7330993baadd3d622f3fb63b2ae1a6b321a5c5e3b96cf60d6b2a343963788a43f507acb55.js" integrity="sha512-8h5yOvKGkHVmkgLP4vE5xqIJwXYRlfwsmN0vpzMJk7qt09Yi8/tjsq4aazIaXF47ls9g1rKjQ5Y3iKQ/UHrLVQ==" crossorigin="anonymous" defer></script>
-  <script src="https://RMITLibrary.github.io/rmit-ui/index.min.692e5d43bba039db7f5d9638bcefa780648f5d5e242f42845cf4835ca69159cb744d995d87697a06de1674b37c8331b9382f2077381f62160c7d3ee0055e838f.js" integrity="sha512-aS5dQ7ugOdt/XZY4vO&#43;ngGSPXV4kL0KEXPSDXKaRWct0TZldh2l6Bt4WdLN8gzG5OC8gdzgfYhYMfT7gBV6Djw==" crossorigin="anonymous" defer></script>
+  <script src="https://RMITLibrary.github.io/rmit-ui/index.min.0989cc49e4403b8a54507f876f65a950f5b9e7ccce12f59d59c57e094f7f03da873d39db95702e80f283a062ef655829ca9edb5551f09573d2026e2ec0f345dc.js" integrity="sha512-CYnMSeRAO4pUUH&#43;Hb2WpUPW558zOEvWdWcV&#43;CU9/A9qHPTnblXAugPKDoGLvZVgpyp7bVVHwlXPSAm4uwPNF3A==" crossorigin="anonymous" defer></script>
   
   </body>
 </html>
