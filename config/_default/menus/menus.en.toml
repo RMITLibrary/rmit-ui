@@ -5,13 +5,11 @@
   url = "/docs/how-to/"
 
 
-
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
+ [[docs]]
+   name = "Lorem"
+   weight = 70
+   identifier = "lorem"
+  url = "/docs/lorem/"
 
 #[[guide]]
 #  name = "Lorem"
@@ -54,12 +52,12 @@
 #  url = "/docs/prologue/quick-start/"
 #  parent = "get-started"
 
-#[[main]]
-#  name = "Tutorial"
-#  weight = 50
-#  identifier = "tutorial"
-#  url = "https://getdoks.org/tutorial/introduction/"
-#  parent = "get-started"
+[[main]]
+  name = "Tutorial"
+  weight = 50
+  identifier = "tutorial"
+  url = "https://getdoks.org/tutorial/introduction/"
+  parent = "get-started"
 
 [[social]]
   name = "GitHub"
