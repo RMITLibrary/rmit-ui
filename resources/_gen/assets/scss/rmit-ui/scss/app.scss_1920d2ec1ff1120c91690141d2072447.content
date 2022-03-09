@@ -10953,19 +10953,35 @@ blockquote {
 /* variables override from herer: https://getbootstrap.com/docs/5.0/components/navbar/
 
 /* Primary Navs */
-nav.navbar-dark, .bg-dark {
+nav.navbar-dark,
+.bg-dark {
   background-color: #000054 !important;
-  background: #000054; }
+  background: #000054;
+  font-weight: 700;
+  font-size: 0.85rem; }
+  nav.navbar-dark a.nav-link, nav.navbar-dark .banner .nav a, .banner .nav nav.navbar-dark a,
+  .bg-dark a.nav-link,
+  .bg-dark .banner .nav a,
+  .banner .nav .bg-dark a {
+    color: white; }
+  nav.navbar-dark .navbar-brand,
+  .bg-dark .navbar-brand {
+    background: #E61E2A;
+    position: relative;
+    top: 0.3rem;
+    width: 5rem;
+    height: 3.5rem;
+    padding: 1rem 1rem 1rem 1rem; }
+  nav.navbar-dark ul li a.nav-link, nav.navbar-dark ul li .banner .nav a, .banner .nav nav.navbar-dark ul li a,
+  .bg-dark ul li a.nav-link,
+  .bg-dark ul li .banner .nav a,
+  .banner .nav .bg-dark ul li a {
+    color: red; }
 
 nav {
   height: 3rem;
   position: relative;
   top: 0; }
-  nav .navbar-brand {
-    background: #E61E2A;
-    position: relative;
-    top: 0.5rem;
-    padding: 1rem 1rem 1rem 1rem; }
 
 /* Secondary Navs */
 /** Search form */
