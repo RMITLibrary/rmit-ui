@@ -4,7 +4,7 @@ description: "Info on the Navbar and use"
 lead: "Info on the Navbar and use"
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
-draft: true
+draft: false
 images: []
 menu:
   docs:
@@ -17,8 +17,8 @@ toc: true
 <p>Example</p>
 
 
-{{< figure src="../../../images/top-navbar.png" class="img-fluid" >}}
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+{{< figure src="../../../images/top-navbar.png" class="img-fluid shadow p-3 mb-5 bg-body rounded" >}}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@ toc: true
 
 <h2>Secondary Nav (tabs)</h2>
 <p>Example</p>
-{{< figure src="../../../images/tab-navs.png" class="img-fluid" >}}
+{{< figure src="../../../images/tab-navs.png" class="img-fluid shadow p-3 mb-5 bg-body rounded" >}}
 <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>

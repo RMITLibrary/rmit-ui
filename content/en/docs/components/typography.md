@@ -16,7 +16,7 @@ toc: true
 
 
 # Typeface
-{{< figure src="../../../images/type-hierachy.png" class="img-fluid" >}}
+{{< figure src="../../../images/type-hierachy.png" class="img-fluid shadow p-3 mb-5 bg-body rounded" >}}
 <h2>Serif / Museo. </h2>
 <p>Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.</p>
 <hr>
@@ -73,7 +73,7 @@ Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes
 
 ### Headings with a line
 
-{{< figure src="../../../images/the-line.png" class="img-fluid" >}}
+{{< figure src="../../../images/the-line.png" class="img-fluid shadow p-3 mb-5 bg-body rounded" >}}
 <hr>
 <h1 class="line">Heading 1</h1>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;h1 class=&quot;line&quot;&gt;Heading 1&lt;/h1&gt;</span></code></pre></div>
@@ -93,7 +93,7 @@ Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes
 <hr>
 
 ### Display Headings - Red band / Text Boxes
-{{< figure src="../../../images/text-boxes.png" class="img-fluid" >}}
+{{< figure src="../../../images/text-boxes.png" class="img-fluid shadow p-3 mb-5 bg-body rounded" >}}
 <p>Note this format has <a href="https://webaim.org/resources/contrastchecker/?fcolor=E61E2A&bcolor=000054">accessibility issues</a>, So use sparingly, in large text or avoid completely.</p>
 <hr>
 <h1 class="display-1">Display 1</h1>

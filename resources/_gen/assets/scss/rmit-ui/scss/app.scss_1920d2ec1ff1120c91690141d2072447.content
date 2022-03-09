@@ -3617,7 +3617,7 @@ textarea.form-control-lg {
     color: #000054; }
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .banner .nav a, .banner .nav .navbar-light .navbar-nav a {
-  color: #1d2d35; }
+  color: #000054; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .banner .nav a:hover, .banner .nav .navbar-light .navbar-nav a:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .banner .nav a:focus, .banner .nav .navbar-light .navbar-nav a:focus {
     color: #000054; }
   .navbar-light .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav .banner .nav a.disabled, .banner .nav .navbar-light .navbar-nav a.disabled {
@@ -3630,14 +3630,14 @@ textarea.form-control-lg {
   color: #000054; }
 
 .navbar-light .navbar-toggler {
-  color: #1d2d35;
+  color: #000054;
   border-color: rgba(29, 45, 53, 0.1); }
 
 .navbar-light .navbar-toggler-icon {
   background-image: none; }
 
 .navbar-light .navbar-text {
-  color: #1d2d35; }
+  color: #000054; }
   .navbar-light .navbar-text a,
   .navbar-light .navbar-text a:hover,
   .navbar-light .navbar-text a:focus {
@@ -10567,7 +10567,7 @@ $border-dark: darken($body-bg-dark, 2.5%);
   padding: 0.25rem 0.5rem; }
 
 .navbar .btn-link {
-  color: #1d2d35;
+  color: #000054;
   padding: 0.4375rem 0; }
 
 #mode {
@@ -10950,6 +10950,24 @@ blockquote {
   border-left: 3px solid #dee2e6;
   padding-left: 1rem; }
 
+/* variables override from herer: https://getbootstrap.com/docs/5.0/components/navbar/
+
+/* Primary Navs */
+nav.navbar-dark, .bg-dark {
+  background-color: #000054 !important;
+  background: #000054; }
+
+nav {
+  height: 3rem;
+  position: relative;
+  top: 0; }
+  nav .navbar-brand {
+    background: #E61E2A;
+    position: relative;
+    top: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem; }
+
+/* Secondary Navs */
 /** Search form */
 .search-form label {
   font-weight: normal; }
@@ -11436,7 +11454,7 @@ button#doks-versions {
   user-select: none; }
 
 .navbar .menu-icon .navicon {
-  background: #1d2d35;
+  background: #000054;
   display: block;
   height: 2px;
   position: relative;
@@ -11445,7 +11463,7 @@ button#doks-versions {
 
 .navbar .menu-icon .navicon::before,
 .navbar .menu-icon .navicon::after {
-  background: #1d2d35;
+  background: #000054;
   content: "";
   display: block;
   height: 100%;
