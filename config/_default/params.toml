@@ -80,9 +80,9 @@ lastMod = false
   clipBoard = true
   instantPage = true
   flexSearch = true
-  darkMode = true
+  darkMode = false
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   multilingualMode = false
@@ -92,4 +92,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false

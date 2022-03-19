@@ -10978,7 +10978,7 @@ nav.navbar-dark,
   .banner .nav .bg-dark ul li a {
     color: red; }
 
-nav {
+nav.navbar {
   height: 3rem;
   position: relative;
   top: 0; }

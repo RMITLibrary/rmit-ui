@@ -1,6 +1,6 @@
 ---
-title : "BP5"
-description: "Bootstrap 5"
+title : "docs"
+description: "An application of Bootstrap 5"
 lead: ""
 date: 2020-10-06T08:48:23+00:00
 lastmod: 2020-10-06T08:48:23+00:00

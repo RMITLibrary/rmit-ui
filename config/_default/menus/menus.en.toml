@@ -1,15 +1,14 @@
 [[docs]]
-  name = "How to use"
+  name = "How to used"
   weight = 10
   identifier = "how-to"
   url = "/docs/how-to/"
 
-
- [[docs]]
-   name = "Lorem"
+ [[components]]
+   name = "components"
    weight = 70
-   identifier = "lorem"
-  url = "/docs/lorem/"
+   identifier = "components"
+  url = "/docs/components/"
 
 [[guide]]
   name = "Lorem"
@@ -24,10 +23,17 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "BP5"
-  url = "./docs/how-to/introduction/"
+  name = "Bootstrap 5"
+  url = "./docs/components/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
+
+[[main]]
+  name = "How to"
+  url = "./docs/getting-started/introduction/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 5
+
 
 # [[main]]
 #   name = "Tutorial"

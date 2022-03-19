@@ -25,3 +25,14 @@ npm run start
 hugo
 ```
 Then rename the "public" folder as "docs" and push to Gihub
+
+## Bus
+
+* Sidebar menu seems to be broken on local
+
+### TODO
+
+Many BS5 elements, priority
+1. Buttons
+2. Navs
+3. Tabs
