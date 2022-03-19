@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "RMIT UI"
+title = "Doks"
 titleSeparator = "-"
 titleAddition = "Modern Documentation Theme"
-description = "A copy paste kitchen sink for we elements as directed by the RMIT brand guidelines"
+description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -80,9 +80,9 @@ lastMod = false
   clipBoard = true
   instantPage = true
   flexSearch = true
-  darkMode = false
+  darkMode = true
   bootStrapJs = true
-  breadCrumb = true
+  breadCrumb = false
   highLight = true
   kaTex = false
   multilingualMode = false
@@ -92,4 +92,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = false
+    collapsibleSidebar = true
