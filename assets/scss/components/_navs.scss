@@ -1,0 +1,53 @@
+/* variables override from herer: https://getbootstrap.com/docs/5.0/components/navbar/
+
+/* Primary Navs */
+nav.navbar-dark,
+.bg-dark {
+    background-color: $blue !important;
+    background: $blue;
+    //padding: 1rem 0 1rem 0;
+    font-weight: 700;
+    font-size: 0.85rem;
+    a.nav-link{
+        color: white;
+    }
+    
+    ul
+{
+    li
+    {
+        
+    }
+}
+    .navbar-brand {
+        background: $red;
+        //padding: 1rem;
+        position: relative;
+        top: 0.3rem;
+        width: 5rem;
+        height: 3.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+
+
+
+
+    }
+
+    ul {
+        li a.nav-link {
+            color: red;
+        }
+    }
+}
+
+
+
+nav.navbar {
+    height: 3rem;
+    position: relative;
+    top: 0;
+
+
+}
+
+/* Secondary Navs */
