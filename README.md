@@ -18,13 +18,16 @@ npm install
 ```bash
 npm run start
 ```
+## Make your edits
+
+Commit changes, make a pull request or
 
 ## Compile for live
 
 ```bash
 hugo
 ```
-Then rename the "public" folder as "docs" and push to Gihub
+Then rename the "public" folder as "docs" and push to GitHub
 
 ## Bus
 

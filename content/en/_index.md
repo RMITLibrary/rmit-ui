@@ -8,3 +8,4 @@ draft: false
 images: []
 ---
 
+{{< figure src="images/brand-animation-small.gif" class="img-fluid" >}}
