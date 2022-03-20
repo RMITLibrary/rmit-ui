@@ -1,3 +1,36 @@
+
+.btn
+{
+  border-radius: $border-radius-lg*2;
+  padding: 1rem 1.5rem;
+  font-weight: 700;
+}
+.btn:hover
+{
+
+}
+
+.btn-lg {
+  border-radius: $border-radius-0;
+  border: none;
+  border-bottom: $red 0.4rem solid;
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 700;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  background-size: 100% 200%;
+  background-position: 0 -94%;
+  background-image: linear-gradient(to top, transparent 50%, $red 50%);
+}
+.btn-lg:hover {
+  color: #fff;
+  background-position: 0 0;
+  border-bottom: $red 0.4rem solid;
+}
+
+
+
 .navbar .btn-link {
   color: $navbar-light-color;
   padding: 0.4375rem 0;
