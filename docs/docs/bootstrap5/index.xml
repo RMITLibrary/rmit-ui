@@ -1,10 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bootstrap 5 on</title><link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/</link><description>Recent content in Bootstrap 5 on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/introduction/</link><pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate><guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/introduction/</guid><description>A work in progress # Within the components section of the left menu are currently ready to implement patterns and UI objects for use.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootstrap 5 on </title>
+    <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/</link>
+    <description>Recent content in Bootstrap 5 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/introduction/</link>
+      <pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate>
+      
+      <guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/introduction/</guid>
+      <description>A work in progress # Within the components section of the left menu are currently ready to implement patterns and UI objects for use.
 If your project is based on Bootstrap 5 structure, and you&amp;rsquo;ve looped in the CSS file that this site offers.
-https://rmitlibrary.github.io/rmit-ui/main.XXXX.css - where XXXX is the latest git hash.</description></item><item><title>Typography</title><link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/typography/</link><pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate><guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/typography/</guid><description>Typeface # Serif / Museo. Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.
-Links # Inline links, use sparingly. Where possible add a call to action after text to provide better context.
-Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes in art, science, and technology, in response to the industrial revolution in Australia.</description></item><item><title>Buttons</title><link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/buttons/</link><pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate><guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/buttons/</guid><description>Buttons vs links, some perspectives
-Accessibility UX See also links
-Large Example on this page Large button Large button Large button &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-light btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-danger btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; Medium / Normal Explore courses Find a researcher Request a call back Find an expert
-&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary&amp;quot;&amp;gt;Explore courses&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-danger&amp;quot;&amp;gt;Find a researcher&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;Request a call back&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-light&amp;quot;&amp;gt;Find an expert&amp;lt;/button&amp;gt;</description></item><item><title>Cards</title><link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/cards/</link><pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate><guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/cards/</guid><description>Jumbotron type menu For mid page navigation with call to action
-Desktop What would you like to study? This is some text within a card body.
-Mobile</description></item></channel></rss>
+https://rmitlibrary.github.io/rmit-ui/main.XXXX.css - where XXXX is the latest git hash.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/typography/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/typography/</guid>
+      <description>Typeface #  Serif / Museo.  Museo is used for headlines (8 words or less) and Helvetica is used for supporting and subsequent copy.
+ Links # Inline links, use sparingly. Where possible add a call to action after text to provide better context.
+Founded in 1887 by Francis Ormond, RMIT began as a night school offering classes in art, science, and technology, in response to the industrial revolution in Australia.</description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/buttons/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/buttons/</guid>
+      <description>Buttons vs links, some perspectives
+ Accessibility UX  See also links
+Large Example on this page  Large button Large button Large button &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-light btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-danger btn-lg&amp;quot;&amp;gt;Large button&amp;lt;/button&amp;gt; Medium / Normal    Explore courses Find a researcher Request a call back Find an expert
+&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-primary&amp;quot;&amp;gt;Explore courses&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-danger&amp;quot;&amp;gt;Find a researcher&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;Request a call back&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn btn-light&amp;quot;&amp;gt;Find an expert&amp;lt;/button&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Cards</title>
+      <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/cards/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/cards/</guid>
+      <description>Jumbotron type menu For mid page navigation with call to action
+Desktop  What would you like to study? This is some text within a card body.
+  Mobile  </description>
+    </item>
+    
+    <item>
+      <title>Other Elements</title>
+      <link>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/other-elements/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>https://rmitlibrary.github.io/rmit-ui/docs/bootstrap5/other-elements/</guid>
+      <description>About this page # This page borrows sections from the Bootstrap 5.x documentation here. Copied and converted sections of markdown are to show an example of the direct rendering of native bootstrap elements. Some have not been styled
+Accordions # The below code copied from here.
+Accordion Item #1   This is the first item&#39;s accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.</description>
+    </item>
+    
+  </channel>
+</rss>
