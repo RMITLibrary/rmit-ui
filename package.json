@@ -1,11 +1,14 @@
 {
-  "name": "@hyas/doks",
-  "description": "Doks theme",
-  "version": "0.4.0",
+  "name": "hugo-dewey-design-system",
+  "description": "Design System",
+  "version": "0.1.0",
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/h-enk/doks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-enk/doks.git"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -63,5 +66,14 @@
   },
   "otherDependencies": {
     "hugo": "0.92.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/h-enk/doks/issues"
+  },
+  "homepage": "https://github.com/h-enk/doks#readme",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "Digital Learning Team"
 }
