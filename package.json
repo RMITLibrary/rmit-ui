@@ -68,9 +68,9 @@
     "hugo": "0.92.1"
   },
   "bugs": {
-    "url": "https://github.com/h-enk/doks/issues"
+    "url": "https://github.com/RMITLibrary/rmit-ui/issues"
   },
-  "homepage": "https://github.com/h-enk/doks#readme",
+  "homepage": "https://github.com/RMITLibrary/rmit-ui/blob/main/README.md",
   "main": "babel.config.js",
   "directories": {
     "doc": "docs"
