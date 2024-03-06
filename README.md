@@ -29,13 +29,25 @@ hugo
 ```
 Then rename the "public" folder as "docs" and push to GitHub
 
-## Bus
+## What to edit.
 
-* Sidebar menu seems to be broken on local
+### Content
+```bash
+/content/docs/bootstrap5/XXXXX.md 
+```
+for editing content, duplicate a file, edit the meta in the head and save.
 
-### TODO
+### Styles
+While the server is running, edit *.scss files in the
+```bash
+/assets/scss/
+```
+folder. Good idea to have a look across the scss files as there's an order to them. Start with _variables.scss and _global.scss
 
-Many BS5 elements, priority
-1. Buttons
-2. Navs
-3. Tabs
+### Other folders
+Shouldn't need to touch them, most of them just support the development environment
+
+## Weird things
+
+* Sidebar menu seems to be broken on local, works on live.
+
